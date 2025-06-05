@@ -1,4 +1,5 @@
 import React from 'react';
+import StarIcon from '/images/icon-star.svg';
 
 const RatingCard = ({ text, cardPosition = '' }) => {
     return (
@@ -7,23 +8,23 @@ const RatingCard = ({ text, cardPosition = '' }) => {
         >
             <div className='flex gap-x-2'>
                 <img
-                    src='../../public/images/icon-star.svg'
+                    src='/images/icon-star.svg'
                     alt='star'
                 />
                 <img
-                    src='../../public/images/icon-star.svg'
+                    src='/images/icon-star.svg'
                     alt='star'
                 />
                 <img
-                    src='../../public/images/icon-star.svg'
+                    src='/images/icon-star.svg'
                     alt='star'
                 />
                 <img
-                    src='../../public/images/icon-star.svg'
+                    src='/images/icon-star.svg'
                     alt='star'
                 />
                 <img
-                    src='../../public/images/icon-star.svg'
+                    src='/images/icon-star.svg'
                     alt='star'
                 />
             </div>
