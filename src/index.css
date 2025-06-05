@@ -1,2 +1,49 @@
 @import 'tailwindcss';
 @plugin "daisyui";
+
+html,
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+:root {
+    --color-primary: hsl(300, 43%, 22%);
+    --color-secondary: hsl(333, 80%, 67%);
+
+    --color-tertiary: rgba(80, 32, 80, 0.1);
+    --color-neutral1: hsl(303, 10%, 53%);
+    --color-neutral2: hsl(300, 24%, 96%);
+    --color-neutral3: hsl(0, 0%, 100%);
+}
+
+.social-header__title {
+    color: var(--color-primary);
+}
+
+.social-header__text {
+    color: var(--color-neutral1);
+}
+
+.social-rating__card {
+    background-color: var(--color-tertiary);
+}
+
+.social-rating__card--text {
+    color: var(--color-primary);
+}
+
+.social-testimonial__card {
+    background-color: var(--color-primary);
+}
+
+.social-testimonial__card--name {
+    color: var(--color-neutral3);
+}
+
+.social-testimonial__card--type {
+    color: var(--color-secondary);
+}
+
+.social-testimonial__card--text {
+    color: var(--color-neutral2);
+}
